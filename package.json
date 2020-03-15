@@ -1,0 +1,15 @@
+{
+  "name": "kg_smartdev007_2021",
+  "version": "1.0.0",
+  "description": "character mapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Jenish Kevadia",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^13.10.1"
+  }
+}
