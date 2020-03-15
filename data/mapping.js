@@ -10,7 +10,7 @@ module.exports = {
             let s2_char= s2[i];
 
             if (map.has(s1_char)) {
-                if (map.get(c1_char) !== s2_char) return false;
+                if (map.get(s1_char) !== s2_char) return false;
             } else {
                 map.set(s1_char, s2_char);
             }
