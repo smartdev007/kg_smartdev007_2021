@@ -1,5 +1,8 @@
 module.exports = {
     checkMap: (s1, s2) => {
+        if (typeof s1 !== 'string' || s1 === '' || s1 === null) throw `Provide a valid input for string 1`;
+        if (typeof s2 !== 'string' || s2 === '' || s2 === null) throw `Provide a valid input for string 2`;
+
         if (s1.length !== s2.length)
             return false;
         
